@@ -49,7 +49,6 @@ Aplikasi ini menggunakan arsitektur 3-tier:
 - Menyimpan data user, absensi, dan konfigurasi
 - Diakses oleh backend untuk read/write data
 
-┌─────────────┐      HTTP/REST API      ┌─────────────┐ │   Flutter   │ ◄──────────────────────► │   Node.js   │ │  Mobile App │                          │   Backend   │ └─────────────┘                          └──────┬──────┘ │ ▼ ┌─────────────┐ │ PostgreSQL  │ │  Database   │ └─────────────┘
 
 ## Prerequisites
 
